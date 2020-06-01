@@ -4,7 +4,12 @@ body {
   margin: 0 auto;
   font-family: "Montserrat";
   position: relative;
-  background-color: #463333;
+  /* background-color: #463333; */
+  background-color: #212531;
+  --color1: #2a272a;
+  --color2: #4b4a54;
+  --color3: #677381;
+  --color4: #021c36;
 }
 body > * {
   box-sizing: border-box;
