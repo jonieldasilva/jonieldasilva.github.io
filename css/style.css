@@ -8,7 +8,7 @@ body {
   background-color: #212531;
   --color1: #2a272a;
   --color2: #4b4a54;
-  --color3: #677381;
+  --color3: #b5bec9;
   --color4: #021c36;
 }
 body > * {
@@ -64,7 +64,7 @@ header h3 {
   bottom: 10%;
   /* right: 0; */
   font-weight: 400;
-  font-size: 20px;
+  font-size: 15px;
   color: var(--color3);
   /* background-color: #ff0; */
   padding: 0 50px;
@@ -148,6 +148,7 @@ a:hover {
     font-size: 14px;
   }
   header {
+    height: 90vh;
     background-position: 90% 10%;
   }
   .logo {
