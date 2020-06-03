@@ -141,7 +141,7 @@ a:hover {
   }
   header h2 {
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 400;
   }
   header h3 {
     font-weight: 400;
@@ -158,6 +158,9 @@ a:hover {
   }
   nav .logo {
     display: none;
+  }
+  nav {
+    padding: 0 20px 0 30px;
   }
 }
 
