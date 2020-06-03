@@ -51,7 +51,7 @@ header h1 {
   letter-spacing: -3px;
   color: white;
   text-transform: uppercase;
-  /* margin-bottom: 5px; */
+  margin-bottom: 5px;
 }
 header h2 {
   font-size: 35px;
@@ -67,7 +67,7 @@ header h3 {
   font-size: 12px;
   color: var(--color3);
   /* background-color: #ff0; */
-  padding: 20px;
+  padding: 0 30px;
 }
 nav {
   position: absolute;
@@ -134,10 +134,11 @@ a:hover {
 
 @media only screen and (max-width: 600px) {
   header h1 {
-    font-size: 50px;
+    font-size: 40px;
   }
   header h2 {
-    font-size: 21px;
+    font-size: 18px;
+    font-weight: 600;
   }
   header h3 {
     font-size: 14px;
