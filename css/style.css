@@ -18,20 +18,21 @@ header {
   width: 100%;
   margin: 0;
   top: 0;
-  height: 700px;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   box-sizing: border-box;
   background: url("../img/heropic1.jpg") no-repeat center;
+  background-attachment: fixed;
   background-image: opacity(30%);
   background-size: cover;
   background-color: #000;
 }
-a:link {
+/* a:link {
   color: white;
-}
+} */
 
 header > * {
   text-align: center;
@@ -39,7 +40,8 @@ header > * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  top: 0;
+  /* top: 0; */
+  position: relative;
 }
 
 header h1 {
@@ -57,7 +59,15 @@ header h2 {
   text-transform: uppercase;
 }
 header h3 {
-  font-weight: 200;
+  position: absolute;
+  margin: auto;
+  bottom: 10%;
+  /* right: 0; */
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--color3);
+  /* background-color: #ff0; */
+  padding: 20px;
 }
 nav {
   position: absolute;
@@ -93,9 +103,8 @@ footer li {
   text-transform: uppercase;
   text-decoration: none;
 }
-button {
+nav ul a {
   border: none;
-  color: black;
   background-color: white;
   font-weight: 700;
   padding: 15px 28px;
@@ -107,9 +116,20 @@ button {
   font-size: 12px;
   margin: 4px 0px 0 30px;
   cursor: pointer;
+  color: var(--color4);
 }
-button:hover {
+
+header a {
+  color: var(--color4);
+  background-color: var(--color3);
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 0 8px 2px;
+  font-size: 0.9em;
+}
+a:hover {
   opacity: 0.9;
+  background-color: #fff;
 }
 
 @media only screen and (max-width: 600px) {
@@ -121,6 +141,9 @@ button:hover {
   }
   header h3 {
     font-size: 14px;
+  }
+  header {
+    background-position: 90% 10%;
   }
 }
 
@@ -169,4 +192,12 @@ footer {
 footer {
   height: 220px;
   background-color: black;
+}
+.skills p {
+  display: grid;
+}
+.skills a {
+  background-color: #ff0;
+  color: black;
+  padding: 10px 20px;
 }
