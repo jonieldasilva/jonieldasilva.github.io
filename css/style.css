@@ -55,7 +55,7 @@ header h1 {
 }
 header h2 {
   font-size: 35px;
-  font-weight: 100;
+  font-weight: 300;
   text-transform: uppercase;
 }
 header h3 {
@@ -64,10 +64,10 @@ header h3 {
   bottom: 10%;
   /* right: 0; */
   font-weight: 400;
-  font-size: 12px;
+  font-size: 20px;
   color: var(--color3);
   /* background-color: #ff0; */
-  padding: 0 30px;
+  padding: 0 50px;
 }
 nav {
   position: absolute;
@@ -118,6 +118,9 @@ nav ul a {
   cursor: pointer;
   color: var(--color4);
 }
+nav .logo-h {
+  display: none;
+}
 
 header a {
   color: var(--color4);
@@ -141,10 +144,20 @@ a:hover {
     font-weight: 600;
   }
   header h3 {
+    font-weight: 400;
     font-size: 14px;
   }
   header {
     background-position: 90% 10%;
+  }
+  .logo {
+    content: "JDS";
+  }
+  nav .logo-h {
+    display: inline;
+  }
+  nav .logo {
+    display: none;
   }
 }
 
