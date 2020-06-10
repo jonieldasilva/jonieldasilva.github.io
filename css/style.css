@@ -69,6 +69,20 @@ header h3 {
   /* background-color: #ff0; */
   padding: 0 50px;
 }
+header h4 {
+  color: black;
+  background-color: #fff;
+  font-size: 8px;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 3px 10px;
+  margin-top: 3px;
+  opacity: 0.8;
+}
+header h4:before,
+header h4:after {
+  content: " **** ";
+}
 nav {
   position: absolute;
   top: 0;
