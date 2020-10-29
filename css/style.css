@@ -24,7 +24,8 @@ header {
   justify-content: center;
   flex-direction: column;
   box-sizing: border-box;
-  background: url("../img/heropic1.jpg") no-repeat center;
+  /* background: url("../img/heropic1.jpg") no-repeat center; */
+  background: url("https://picsum.photos/2000?grayscale") no-repeat center;
   background-attachment: fixed;
   background-image: opacity(30%);
   background-size: cover;
