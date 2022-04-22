@@ -2,12 +2,7 @@ body {
     margin: 0 auto;
     position: relative;
     /* background-color: #463333; */
-    background-color: #000;
-    --color1: #2a272a;
-    --color2: #4b4a54;
-    --color3: #b5bec9;
-    --color4: #021c36;
-  }
+    background-color: #000;  }
   body * {
     box-sizing: border-box;
 
