@@ -1,7 +1,6 @@
 body {
     margin: 0 auto;
     position: relative;
-    /* background-color: #463333; */
     background-color: #000;  }
   body * {
     box-sizing: border-box;
