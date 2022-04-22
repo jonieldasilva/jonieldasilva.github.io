@@ -11,4 +11,5 @@ body {
   }
   body > * {
     box-sizing: border-box;
+    background-image: url("../img/Home21.png");
   }
